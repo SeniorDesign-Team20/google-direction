@@ -24,7 +24,7 @@ const center = { lat: 48.8584, lng: 2.2945 }
 
 function App() {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: REACT_APP_GOOGLE_MAPS_API_KEY,
     libraries: ['places'],
   })
 
